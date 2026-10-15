@@ -7,7 +7,6 @@ import negocio.ArbolBinario;
 public class Main {
 
     public static void main(String[] args) {
-        // Si se ejecuta con el argumento "pruebas", corre los casos de prueba
         if (args.length > 0 && args[0].equalsIgnoreCase("pruebas")) {
             ejecutarPruebas();
         } else {
